@@ -11,7 +11,7 @@ export default function Home() {
       location.replace("http://172.20.65.245:3001");
       return;
     }
-  });
+  }, []);
 
   return (
     <main className={styles.main}>
